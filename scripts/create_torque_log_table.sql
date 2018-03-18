@@ -1,5 +1,5 @@
 CREATE DATABASE torque;
-USE `torque`;
+\c torque;
 
 DROP TABLE IF EXISTS `raw_logs`;
 CREATE TABLE `raw_logs` (
